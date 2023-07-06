@@ -1,0 +1,5 @@
+print("Preço do Aluguel!")
+d = int(input("Quantos dias a pessoa ficou com o carro? "))
+km = float(input("Quantos Km o carro percorreu? "))
+pa = (d * 60) + (km * 0.15)
+print("O total a pagar pelo carro é R$ {:.2f}".format(pa))
